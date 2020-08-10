@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DI | Landing Page</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css">
+	<style type="text/css">
+		form {
+			background-image: url("https://cdn.hipwallpaper.com/i/15/36/ER7TMK.jpg");
+			background-size: cover;
+			height: 500px;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		nav {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0px 100px;
+		}
+		
+		nav.button {
+			height: 30px;
+		}
+		
+		form p {
+			font-size: 35px; 
+			font-weight: bold;
+			color: white;
+			text-align: center;
+			font-family: arial;
+		}
+		
+		form input.email {
+			width: 350px;
+		}
+		#stbutton {
+			background-color: #336600;
+			width: 80px;
+			height: 35px;
+			border-radius: 4px;
+		}
+
+		#stbutton:hover {
+  			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+		.flex-container {
+			display: flex;
+			justify-content: space-around;
+		}
+
+		i {
+			font-size: 60px;
+		}
+		
+	</style>
+</head>
+<body>
+	<header>
+		<nav><p>My Landing Page</p>
+		<button class="button" id="stbutton">Sign In</button>
+		</nav>
+	</header>
+	<form>
+		<p>Find your dream plant and be the first to know about our promotions!</p>
+        <div>
+        	<input type="email" name="email" class="email" placeholder="Enter your email">
+        	<input type="submit" name="submit" class="button" id="ndbutton">
+        </div>
+	</form>
+		<div class="flex-container">
+			<div id="plant">
+				<i class="fas fa-leaf"></i>
+				<p><b>Rare Plants</b></p>
+				<p>Purchasing with us means making sure you're getting that rare plant you've always wanted!</p>
+			</div>
+			<div id="heart">
+				<i class="fas fa-hand-holding-heart"></i>
+				<p><b>True Care</b></p>
+				<p>We put our hearts onto our plants, making sure that only the best material is used.</p>
+			</div>
+			<div id="money">
+				<i class="fas fa-money-bill"></i>
+				<p><b>Best Value</b></p>
+				<p>Our prices reflect are affordable, meaning better value for your dollar, and your home!</p>
+			</div>
+		</div>
+
+</body>
+</html>
