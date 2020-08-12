@@ -1,0 +1,75 @@
+* {
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+.wrapper-container {
+	display: grid;
+	width: 1100px;
+	grid-gap: 2em;
+	grid-template-rows: 80px 1fr 1fr 100px;
+	grid-template-columns: 200px 1fr 1fr;
+	grid-template-areas: "header header header" "sidebar cont1 cont1" "sidebar cont2 cont3" "footer footer footer";
+	margin: auto;
+}
+
+.header {
+	background-color: red;
+	grid-area: header;
+}
+
+.sidebar {
+	background-color: blue;
+	grid-area: sidebar;
+	height: 400px;
+}
+
+.cont1 {
+	background-color: orange;
+	grid-area: cont1;
+}
+
+.cont2 {
+	background-color: purple;
+	grid-area: cont2;
+}
+
+.cont3 {
+	background-color: yellow;
+	grid-area: cont3;
+}
+
+.footer {
+	background-color: grey;
+	grid-area: footer;
+}
+
+.grid-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.part1 {
+	background-image: linear-gradient(to right, #40E0D0, #FF8C00, #FF0080)
+}
+
+.part2 {
+	background-image: linear-gradient(to right, #1a2a6c, #b21f1f, #FF0080)
+}
+
+.cont1 {
+	background-image: linear-gradient(to right, #8E0E00, #1F1C18)
+}
+
+.cont2 {
+	background-image: linear-gradient(to right, #FEAC5E, #C779D0, #4BC0C8)
+}
+
+.cont3 {
+	background-image: linear-gradient(to right, #83a4d4, #b6fbff)
+}
+
+.part3 {
+	background-image: linear-gradient(to right, #ED4264, #FFEDBC)
+}

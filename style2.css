@@ -1,0 +1,55 @@
+.wrapper-container {
+	display: grid;
+	grid-gap: 10px;
+}
+
+.frow1 {
+	background-color: red;
+	border: 1px solid black;
+}
+
+.frow2 {
+	background-color: blue;
+	border: 1px solid black;
+}
+
+.srow1 {
+	background-color: green;
+	border: 1px solid black;
+}
+
+.trow1 {
+	background-color: purple;
+	border: 1px solid black;
+}
+
+.trow2 {
+	background-color: yellow;
+	border: 1px solid black;
+	grid-template-columns: 1fr 1fr;
+}
+
+.wrapper1 {
+	grid-template-columns: 1fr 1fr;
+	height: 33vh;
+	display: grid;
+	grid-gap: 10px;
+}
+
+.wrapper2 {
+	grid-template-columns: 1fr 3fr;
+	height: 33vh;
+	display: grid;
+	grid-gap: 10px;
+}
+
+.wrapper3 {
+	grid-template-rows: 1fr 1fr
+	height: 33vh;
+	display: grid;
+	grid-gap: 10px;
+}
+
+* {
+	font-size: 70px;
+}

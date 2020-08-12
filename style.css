@@ -1,0 +1,58 @@
+.container {
+	display: grid;
+	grid-gap: 10px; /*spacing between the rows*/
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: repeat(3 1fr);
+
+}
+
+.border {
+	border: 1px solid black;
+	border-radius: 7px;
+	padding: 10px;
+}
+
+.container2 {
+	height: 5vh;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr;
+}
+
+.border2 {
+	border: 1px solid black;
+	border-radius: 7px;
+	padding: 10px; 
+  	background-image: linear-gradient(#009933, #006622, #003311);
+}
+
+.red {
+	border-color: yellow;
+	background-color: red;
+}
+
+.blue {
+	border-color: green;
+	background-color: blue;
+}
+
+.green {
+	border-color: blue;
+	background-color: green;
+}
+
+.tricolor {
+	border: 1px solid black;
+	border-radius: 7px;
+	padding: 10px; 
+  	background-image: linear-gradient(to right, #e60000, #ffffff, #000000);
+}
+
+.rasta {	
+	border: 1px solid black;
+	border-radius: 7px;
+	padding: 10px; 
+  	background-image: linear-gradient(to right, #1E9600, #FFF200, #FF0000);
+}
+
+
